@@ -1,5 +1,4 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
 import { Model } from './model/model';
 import { ContainerView } from './view/containerView';
