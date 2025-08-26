@@ -1,8 +1,8 @@
 import './style.css'
 import { setupCounter } from './counter.js'
-import { Model } from './model/model';
-import { ContainerView } from './view/containerView';
-import { HeaderView } from './view/headerView';
+import { Model } from './model/model.js';
+import { ContainerView } from './view/containerView.js';
+import { HeaderView } from './view/headerView.js';
 
 console.log(Model);
 const container = new ContainerView(Model)
